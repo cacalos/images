@@ -2,6 +2,10 @@ global:
   smscSim:
     clusterIP: "10.100.176.220"
 
+image_shas:
+  my_sample_application: abcdefgh
+  another_repo: abcdef
+
 dish-smsf-svc:
   service:
     ports:
